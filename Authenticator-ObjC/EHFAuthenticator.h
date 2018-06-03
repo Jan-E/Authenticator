@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 #import <LocalAuthentication/LocalAuthentication.h>
 
-typedef void(^EHFCompletionBlock)();
+typedef void(^EHFCompletionBlock)(void);
 typedef void(^EHFAuthenticationErrorBlock)(LAError);
 
 @interface EHFAuthenticator : NSObject
